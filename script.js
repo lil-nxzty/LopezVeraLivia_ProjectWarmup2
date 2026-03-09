@@ -18,5 +18,17 @@ const exampleNode = {
 };
 
 console.log(exampleNode.choices[0]);
-const ex2 = {image: "hallway.jpg", text: ""}
-const storyNodes = [exampleNode, ex2]
+const ex2 = {image: "hallway.jpg", text: "I sure hope this doesn't lead me to my death", choices: ['', '' ,'']}
+const ex3 = {image: "entrance.jpg", text: "HMMM, I wonder if i can fit through", choices: ['', '' ,'']}
+const ex4 = {image: "gamingroom.jpg", text: "A gaming room; to me, just a room, thats how twisted my mind really is", choices: ['', '' ,'']}
+const storyNodes = [exampleNode, ex2, ex3, ex4]
+
+console.log(storyNodes[0].choices[0])
+
+function displayNode(n) {
+    document.getElementById("fort").innerText = storyNodes[n].text;
+    document.getElementById("nite").src = storyNodes[n].image;
+    document.getElementById("diversion").innerText = storyNodes[n].choices;
+}
+displayNode(0);
+

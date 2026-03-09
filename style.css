@@ -1,0 +1,22 @@
+body {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+}
+
+#nite {
+    width: 500px;
+    max-width: 90%;
+    margin-top: 20px;
+}
+
+#fort {
+    max-width: 600px;
+    margin: 20px auto;
+    line-height: 1.6;
+    font-size: 18px;
+}
+
+h1 {
+    margin-top: 30px;
+}
